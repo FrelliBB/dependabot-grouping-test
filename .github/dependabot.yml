@@ -5,7 +5,7 @@ updates:
     groups:
       non-critical-dependencies:
         exclude-patterns:
-          - "spring-boot-*"
+          - "org.springframework.boot:spring-boot-*"
     schedule:
       interval: daily
     open-pull-requests-limit: 5
