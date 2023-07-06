@@ -4,8 +4,6 @@ updates:
     directory: "/"
     groups:
       non-critical-dependencies:
-        patterns:
-          - "*"
         exclude-patterns:
           - "spring-boot-*"
     schedule:
