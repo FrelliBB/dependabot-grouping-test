@@ -3,11 +3,9 @@ updates:
   - package-ecosystem: maven
     directory: "/"
     groups:
-      non-critical-dependencies:
+      all-dependencies:
         patterns:
           - "*"
-        exclude-patterns:
-          - "org.springframework.boot:spring-boot-*"
     schedule:
       interval: daily
     open-pull-requests-limit: 5
